@@ -602,3 +602,51 @@ header {
 .technology i {
     font-size: 1.2em;
 }
+
+/* Contact me */
+/* Contact Me section */
+.contact-me {
+    background-color: var(--clr-light);
+    padding: 5em 2em;
+    text-align: center;
+}
+
+.section__title--contact {
+    color: var(--clr-dark);
+    margin-bottom: 1em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: .5em;
+    font-weight: var(--fw-bold);
+}
+
+.form-group label span {
+    color: var(--clr-accent);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: .5em;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    border: 1px solid var(--clr-dark);
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
